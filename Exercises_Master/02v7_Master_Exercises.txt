@@ -56,3 +56,11 @@ Exercises:: Comandos Utilizados para los Ejercicios
  --> cd ~ 
  --> mv first_dir/sub2/text_file.txt.2 first_dir/sub2/text_file.txt.backup
 
+9. Move first_dir/sub2/text_file.txt.backup to first_dir directory as hidden file
+ :::::::: Desde el home
+
+ --> mv first_dir/sub2/text_file.txt.backup first_dir/.text_file_.txt.backup    :: . antes del nombre es para ocultarlo
+10. Delete the sub3 subdirectory
+ :::::::: Desde el home
+
+--> rm -r first_dir/sub3      :: rm -r borra un directorio y su interior, rm borra un fichero
