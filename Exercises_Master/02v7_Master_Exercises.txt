@@ -36,4 +36,15 @@ Exercises:: Comandos Utilizados para los Ejercicios
 				  si la primera posicion es un 1 significa que tiene permisos de lectura r
 				  y si es un 0 que no los tiene, (igual para los siguientes)
 				en nuestro ejempo chmod 731 es igual a chmod u=rwx, g=rw, o=r
-				 
+				
+4. Create 3 subdirectories inside first_dir: sub1, sub2, sub3
+
+ --> mkdir sub1 sub2 sub3 :: A mkdir podemos decirle todos los ficheros que queremos crear
+
+5.Copy the text_file.txt file into sub1 directory
+
+ --> cp text_file.txt sub1/   :: cp copia un directorio cp a b copia a en b, tambien funciona para cambiarle el nombre
+
+6. Move the text_file.txt into sub2 under name text_file.txt.2
+ --> mv text_file.txt sub2/text_file.txt.2    :: mv a b mueve el fichero a a b, b puede ser otro fichero y simplemente le cambia el nombre, o puede ser un directorio y lo mueve con el mismo nombre
+
