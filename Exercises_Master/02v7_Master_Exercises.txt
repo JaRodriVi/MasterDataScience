@@ -48,3 +48,11 @@ Exercises:: Comandos Utilizados para los Ejercicios
 6. Move the text_file.txt into sub2 under name text_file.txt.2
  --> mv text_file.txt sub2/text_file.txt.2    :: mv a b mueve el fichero a a b, b puede ser otro fichero y simplemente le cambia el nombre, o puede ser un directorio y lo mueve con el mismo nombre
 
+7. Copy the whole directory sub1 to sub3 directory
+ --> cp -r sub1 sub3   :: -r significa que lo haga recursivo, es decir, que copie tambien el interior
+
+8. Change file name of first_dir/sub2/text_file.txt.2 to first_dir/sub2/text_file.txt.backup
+ :::::::: Hagamoslo desde el home
+ --> cd ~ 
+ --> mv first_dir/sub2/text_file.txt.2 first_dir/sub2/text_file.txt.backup
+
