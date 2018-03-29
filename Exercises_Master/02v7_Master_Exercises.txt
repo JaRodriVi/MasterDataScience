@@ -5,8 +5,35 @@ Exercises:: Comandos Utilizados para los Ejercicios
  --> mkdir first_dir :: mkdir crea un directorio 
 
 2. Create an empty file text_file.txt inside first_dir directory
+
  --> cd first_dir
  --> touch text_file.txt
  o 
  --> touch fist_dir/text_file.txt
  :::::::: touch crea un fichero vacio con un nombre especifico
+ 
+3. Add execute permissions to group users, and write permissions to other users to text_file.txt
+
+ :::::::: Este ejercicio se puede hacer de varias formas, ya que el comando chmod que da
+ :::::::: permisos a los ficheros de lectura escritura y ejecucion rwx a los distintos
+ :::::::: tipos de usuarios, admite distintos tipos de parametros.
+ :::::::: Podemos decirle que tipos queremos
+ --> chmod u=rwx, g=rwx, o=rw file :: Daría permisos de rwx al usuario creador y al grupo
+                                   :: pero a otros solo rw.
+ :::::::: O podemos decirle los permisos con codigo binario:
+ --> chmod 731 file  :: Daría permisos rwx a todos
+ 
+ :::::::: Los permisos binarios van de la siguiente manera
+ 				Tenemos 3 numeros, en el ejemplo 7 3 1
+				 el primero representa al usuario, 7
+				 el segundo a grupos 3
+				 y el tercero a otros 1
+				 el 7 en binario es 111
+				 el 3 es 110
+				 y el 1 es 100
+				 (otros ejemplos serian el 2 010 o el 6 011)
+				 entonces, cada posicion --- representa un permiso rwx,
+				  si la primera posicion es un 1 significa que tiene permisos de lectura r
+				  y si es un 0 que no los tiene, (igual para los siguientes)
+				en nuestro ejempo chmod 731 es igual a chmod u=rwx, g=rw, o=r
+				 
