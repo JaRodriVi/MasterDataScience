@@ -1,2 +1,12 @@
 Exercises:: Comandos Utilizados para los Ejercicios
 
+1. Create a directory first_dir in my home folder
+
+ --> mkdir first_dir :: mkdir crea un directorio 
+
+2. Create an empty file text_file.txt inside first_dir directory
+ --> cd first_dir
+ --> touch text_file.txt
+ o 
+ --> touch fist_dir/text_file.txt
+ :::::::: touch crea un fichero vacio con un nombre especifico
