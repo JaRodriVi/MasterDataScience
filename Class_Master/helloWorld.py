@@ -23,3 +23,16 @@ def centenario(name,year):
 		year=int(year)+100
 		sol= name+ ' will reach 100 years in '+str(year)
 	return sol
+
+def wc(text):
+	return len(text.split(' ')),len(text.split('\n')),len(text)
+
+def rm(strring,i):
+	if len(text)<i:
+		print('WARNING')
+	else:
+	    return text[:i] + text[(i+1):]
+	
+def findTexto(path,word):
+	f=open(path)
+	return f.read().count(word)

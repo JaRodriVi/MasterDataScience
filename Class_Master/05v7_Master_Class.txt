@@ -1,0 +1,173 @@
+START=0 + grep Empecemos -n ~/.history | grep "^[0-9]*" -o | tail -n -1
+./writeTodayHistory.sh
+echo $START
+let START=START+1
+echo $START
+./writeTodayHistory.sh PRUEBA
+ls
+em Pv7_Master_E_History.txt
+rm Pv7_Master_E_History.txt
+ls
+./writeTodayHistory.sh PRUEBA
+ls
+./writeTodayHistory.sh PRUEBA
+ls
+cat PRUEBA.txt
+git status
+git checkout
+ls
+git status
+ls
+git add writeTodayHistory.sh
+rm PRUEBA.txt
+ls
+git add writeTodayHistory.sh
+git commit
+git push
+git status
+git checkout
+git checkout Pv7_Master_E_History.txt
+git pull
+ls
+rm Pv7_Master_E_History.txt
+git add/rm Pv7_Master_E_History.txt
+ls
+ll
+ls
+git checkout
+ls
+git pull
+ls
+ll
+git commit
+git push
+ls
+git pull
+git rm Pv7_Master_E_History.txt
+ls
+git commit
+git push
+ls
+cd Repos/MasterDataScience
+ls
+cd /etc
+ls
+cd
+cd Repos/MasterDataScience/Exercises_Master
+ls
+mv 02v7_Master_Exercises.txt 02v7_Master_Exercises_part1.txt
+ls
+git pull
+mv 02v7_Master_Exercises_part1.txt 02v7_Master_Exercises.txt
+ls
+cd Repos/MasterDataScience/Exercises_Master
+ls
+notepadqq 02v7_Master_Exercises.txt
+git status
+git add 02v7_Master_Exercises.txt
+git commit 
+git push
+cd Data/shell
+ls
+less Finn.txt
+less Fin.txt
+less Finn.txt
+tree --help
+find --help
+man find
+ls
+git add 02v7_Master_Exercises.txt
+git comit
+git commit
+git push
+cd Repos/MasterDataScience
+ls
+git pull
+ls
+cd
+ls
+cd Repos
+ls
+cd MasterDataScience
+ls
+mkdir Class_Master
+ls
+mv writeTodayHistory.sh Class_Master
+ls
+cd Class_Master
+ls
+git status
+git checkout
+ls
+git status
+git add writeTodayHistory.sh
+ls
+cd
+cd Repos/MasterDataScience
+ls
+git rm writeTodayHistory.sh
+ls
+git commite
+git commit
+git push
+echo "wwwEmpezamoswww"
+python
+echo "print("Hello World")"> helloWorld.py
+python ./helloWorld.py
+python
+echo "print('Hello World')"> helloWorld.py
+python ./helloWorld.py
+ls
+git status
+git add helloWorld.py
+git commit
+git push
+ls
+mv helloWorld.py Class_Master
+git rm helloWorld.py
+git commit
+git pull
+git push
+cd Class_Master
+ls
+python
+cd Repos/MasterDataScience/Class_Master
+notepadqq helloWorld.py
+ipython
+cd Repos/MasterDataScience/Class_Master
+ls
+python ./helloWorld.py
+ls
+cd __pycache__
+ls
+cd .
+cd ..
+cat helloWorld.py
+ipython
+cd Repos/
+mkdir RepoLongTime
+cd RepoLongTime
+touch blackJack.py
+notepadqq blackJack.py
+ipython
+ls
+git status
+git add helloWorld.py
+git commit
+git push
+notepadqq helloWorld.py
+cat .history
+d
+where ipython
+notepadqq helloWorld.py
+cd
+cd Repos/MasterDataScience/Class_Master
+ls
+ipython
+sudo snap install notepadqq
+notepadqq
+where notepadqq
+notepadqq miarchivo.py
+/snap/bin/notepadqq
+notepadqq
+./writeTodayHistory.sh 05v7_Master_Class.txt
